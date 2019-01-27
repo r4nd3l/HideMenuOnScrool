@@ -1,0 +1,61 @@
+/* Default DevCorner Style Setting */
+
+:root{
+  --dc-: #28a745;
+}
+
+body{
+  margin: 0;
+  /* background: #fff; */
+  background: url(../img/img_05.jpeg) no-repeat 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Roboto;
+}
+
+#navbar{
+  background: var(--dc-);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.8s;
+  border-bottom: 1px solid #868686;
+}
+
+#navbar a{
+  float: left;
+  display: block;
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 1em;
+}
+#navbar a:first-child{
+  margin-left: 4em;
+}
+#navbar a:hover{
+  background: #fff;
+  color: var(--dc-);
+}
+
+h1{
+  font-weight: 300;
+}
+
+.content{
+  margin: 8em 4em;
+  text-align: justify;
+}
+
+p{
+  color: #3f3f3f;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+
+
+
+/* End */
